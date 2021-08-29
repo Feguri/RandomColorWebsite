@@ -7,4 +7,5 @@ const getRandomColor = () => {
     return `hsl(${h}deg, ${s}%, ${l}%)`;
   };
 
-document.body.style.backgroundColor = getRandomColor();
+let html = document.querySelector('html');
+html.style.backgroundColor = getRandomColor();
